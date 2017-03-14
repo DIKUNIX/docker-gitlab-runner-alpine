@@ -11,4 +11,6 @@ USER docker
 
 WORKDIR /home/docker/
 
+ENV PATH=/home/docker/.local/bin:$PATH
+
 CMD ["irb"]
